@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: white;
+    margin-left: 24px;
+}
+
+.nav {
+    background-color: #000;
+}
+
+.main__nav {
+    height: 87px;
+    width: 100%;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text__accent {
+    color: #FF208B;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.menu__elem {
+    position: relative;
+    margin-bottom: 80px;
+    width: 350px;
+}
+
+.elem__class {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 30px;
+}
+
+.meal {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.elem__meal {
+    margin-bottom: 30px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.meal__name {
+    width: 300px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.meal__price {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: max-content;
+}
+
+.meal__weight {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #898989;
+    position: absolute;
+    top: 24px;
+    right: 0;
+    width: max-content;
+}
+
+.meal__desc {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #898989;
+    width: 300px;
+    margin-top: 12px;
+    margin-bottom: 18px;
+    min-height: 40px;
+}
+
+.elem__meal:hover .meal__name, .elem__meal:hover .meal__price{
+    color: #FF208B;
+    transition: .5s;
+}
+
+.meal__anim {
+    height: 2px;
+    width: 0px;
+    background-color: #FF208B;
+    margin-top: 5px;
+    transition: .5s;
+}
+
+.elem__meal:hover .meal__anim {
+    width: 100px;
+    transition: .5s;
+}

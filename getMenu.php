@@ -27,7 +27,7 @@
         array_push($accum, $tmp);
         
     }
-    echo print_r($accum, true);
+    echo json_encode($accum);
     $result->free();
     $mysqli->close();
 ?>

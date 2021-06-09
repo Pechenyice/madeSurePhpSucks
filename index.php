@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,11 @@
     <title>re:Restraunt</title>
 </head>
 <body>
+
+    <div class="preloader">
+        <div class="preloader__text">re:Restaurant</div>
+    </div>
+
     <div class="main">
         <div class="nav main__nav">
             <div class="logo nav__logo">
@@ -25,11 +30,6 @@
             <div class="elem__class">Мясо</div>
 
             <div class="elem__content">
-                <!-- <div class="elem__meal meal">
-                    <div class="meal__name">Мясо</div>
-                    <div class="meal__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div>
-                    <div class="meal__price"><span class="meal__price_value">360</span>₽</div>
-                </div> -->
             </div>
         </div>
 

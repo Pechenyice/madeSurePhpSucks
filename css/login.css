@@ -1,0 +1,22 @@
+
+body {
+    background-color: #000;
+}
+
+.input_log {
+    width: 200px;
+    height: 40px;
+    padding: 10px 20px;
+    margin-bottom: 18px;
+}
+
+.login {
+    margin: auto;
+    width: 200px;
+    height: max-content;
+    margin-top: 150px;
+}
+
+.button_update {
+    width: 200px;
+}

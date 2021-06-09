@@ -20,6 +20,6 @@ window.addEventListener('DOMContentLoaded', async () => {
     }
 
     setTimeout(() => {document.getElementsByClassName('preloader')[0].style.opacity = 0;}, 1000);
-    setTimeout(() => {document.getElementsByClassName('preloader')[0].style.display = none;}, 1500);
+    setTimeout(() => {document.getElementsByClassName('preloader')[0].style.display = 'none';}, 1500);
 
 });
